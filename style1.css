@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+body {
+    background: linear-gradient(to right, #04ffc0, #7905ff);
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-main {
+    padding-top: 2rem;
+}
+
+.form-main, .form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2rem);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.form-control input {
+    border-radius: 2rem;
+}
+
+#g_word {
+    padding-left: 0.5rem;
+    text-align: center;
+}
+
+.btn input{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2));
+    border: none;
+    box-shadow: 3px 3px 4px rgba(44, 35, 35, 0.432);
+}
+
+.btn input:hover {
+    background: rgba(255,255,255,0.5);
+    box-shadow: 10px 10px 25px rgba(44, 35, 35, 0.432);
+}
